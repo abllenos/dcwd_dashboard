@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #f6f7fb;
+  --card: #ffffff;
+  --border: #eeeeee;
+  --text: #111827;
+  --muted: #667085;
+  --primary: #5b7cfa;
+  --button-bg: #eef2ff;
+  --button-border: #c7d2fe;
+  --sidebar-bg: #ffffff;
+}
+
+.dark {
+  --bg: #0f172a;
+  --card: #111827;
+  --border: #1f2937;
+  --text: #e5e7eb;
+  --muted: #9ca3af;
+  --primary: #4f46e5;
+  --button-bg: #1f2937;
+  --button-border: #374151;
+  --sidebar-bg: #0b1220;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+}
